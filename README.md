@@ -19,8 +19,9 @@ Este proyecto es una API desarrollada en C# utilizando el Framework .NET. Provee
 
 1. Clona el repositorio:
 
-    git clone https://github.com/tu-usuario/tu-repositorio.git
-    cd tu-repositorio
+    git clone https://github.com/anap011/project_inventory_management-api.git
+    
+    cd project_inventory_management-api
 
 2. Restaura los paquetes NuGet:
 
@@ -28,19 +29,7 @@ Este proyecto es una API desarrollada en C# utilizando el Framework .NET. Provee
 
 3. Configura la conexión a la base de datos en el archivo `appsettings.json`:
 
-    {
-        "Logging": {
-            "LogLevel": {
-            "Default": "Information",
-            "Microsoft.AspNetCore": "Warning"
-            }
-        },
-        "AllowedHosts": "*",
-        "ConnectionStrings": {
-            "connection": "Server=tu-servidor;Database=tu-base-de-datos;User Id=tu-usuario;Password=tu-contraseña;"
-        },
-        "ApiKey": "crea-tu-apikey"
-    }
+    [code](appsettings.png)
 
 
 6. Ejecuta la aplicación:

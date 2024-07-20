@@ -9,11 +9,10 @@ Este proyecto es una API desarrollada en C# utilizando el Framework .NET. Provee
 - SQL Server o MySql
 
 ### Paquetes NuGet utilizados
-- Microsoft.AspNet.Cors
-- Microsoft.EntityFrameworkCore
-- Microsoft.EntityFrameworkCore.SqlServer
-- Microsoft.EntityFrameworkCore.Tools
-
+- Microsoft.AspNet.Cors 5.3.0
+- Microsoft.EntityFrameworkCore 8.0.6
+- Microsoft.EntityFrameworkCore.SqlServer 8.0.6
+- Microsoft.EntityFrameworkCore.Tools 8.0.6
 
 ## Instalación
 

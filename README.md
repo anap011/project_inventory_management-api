@@ -29,7 +29,7 @@ Este proyecto es una API desarrollada en C# utilizando el Framework .NET. Provee
 
 3. Configura la conexión a la base de datos en el archivo `appsettings.json`:
 
-    [code](appsettings.png)
+    ![code](appsettings.png)
 
 
 6. Ejecuta la aplicación:

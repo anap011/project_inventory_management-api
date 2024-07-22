@@ -2,10 +2,10 @@
 
 namespace backend_inventory_management.Models
 {
-    public partial class Batches
+    public partial class Lotes
     {
         [Key]
-        public int Batch_id { get; set; }
-        public string? Batch_name { get; set; }
+        public int Lote_id { get; set; }
+        public string? Lote_nombre { get; set; }
     }
 }

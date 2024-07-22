@@ -3,10 +3,10 @@ using System.ComponentModel.DataAnnotations;
 
 namespace backend_inventory_management.Models
 {
-    public partial class Suppliers
+    public partial class Proveedores
     {
         [Key]
-        public int Supplier_id { get; set; }
-        public string? Supplier_name { get; set; }
+        public int Proveedor_id { get; set; }
+        public string? Proveedor_nombre { get; set; }
     }
 }

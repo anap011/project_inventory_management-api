@@ -38,7 +38,7 @@ Este proyecto es una API desarrollada en C# utilizando el Framework .NET. Provee
 
 ## Guía de Uso
 
-El URL : [link-api](http://www.api-inventory-management.somee.com)
+El URL : http://www.api-inventory-management.somee.com
 
 La API ofrece los siguientes endpoints:
 

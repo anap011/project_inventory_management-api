@@ -9,7 +9,6 @@
         public ApiKeyMiddleware(RequestDelegate next, IConfiguration configuration)
         {
             _next = next;
-            //_apiKeyValue = Environment.GetEnvironmentVariable("API_KEY");  // Obtiene el valor desde la configuración 
             _apiKeyValue = configuration.GetValue<string>("ApiKey");
         }
         public async Task InvokeAsync(HttpContext context)
@@ -20,7 +19,7 @@
             {
                 if ((!context.Request.Headers.TryGetValue(APIKEY, out var extractedApiKey) ) || (!_apiKeyValue.Equals(extractedApiKey) ))
                         {
-                    context.Response.StatusCode = 401; // Unauthorized
+                    context.Response.StatusCode = 401; // Sin autorización
                     await context.Response.WriteAsync("Clave API no autorizada");
                     return;
                 }

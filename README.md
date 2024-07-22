@@ -71,3 +71,11 @@ La API ofrece los siguientes endpoints:
 - **PUT /lotes/{id}**: Actualiza un lote existente.
 - **DELETE /lotes/{id}**: Elimina un lote.
 
+
+## Links de los respositorios que complementan este proyecto = 
+
+https://github.com/anap011/project_inventory_management-web_api
+
+https://github.com/anap011/project_inventory_management-web_crud
+
+https://github.com/anap011/project_inventory_management-backend_login

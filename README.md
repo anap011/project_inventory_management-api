@@ -38,32 +38,32 @@ Este proyecto es una API desarrollada en C# utilizando el Framework .NET. Provee
 
 ## Guía de Uso
 
-El URL : http://www.api-inventory-management.somee.com
+El URL : https://www.api-inventory-management.somee.com/v1
 
 La API ofrece los siguientes endpoints:
 
-### Productos / Products
+### Productos
 
-- **GET /product**: Obtiene todos los productos.
-- **GET /product/id={id}**: Obtiene un producto por su ID.
-- **POST /product/create**: Crea un nuevo producto.
-- **PUT /product/edit/id={id}**: Actualiza un producto existente.
-- **DELETE /product/delete/id={id}**: Elimina un producto.
+- **GET /productos**: Obtiene todos los productos.
+- **GET /productos/{id}**: Obtiene un producto por su ID.
+- **POST /productos/**: Crea un nuevo producto.
+- **PUT /productos/{id}**: Actualiza un producto existente.
+- **DELETE /productos/{id}**: Elimina un producto.
 
 
-### Proveedores / Suppliers
+### Proveedores 
 
-- **GET /supplier**: Obtiene todos los proveedores.
-- **GET /supplier/id={id}**: Obtiene un proveedor por su ID.
-- **POST /supplier/create**: Crea un nuevo proveedor.
-- **PUT /supplier/edit/id={id}**: Actualiza un proveedor existente.
-- **DELETE /supplier/delete/id={id}**: Elimina un proveedor.
+- **GET /proveedores**: Obtiene todos los proveedores.
+- **GET /proveedores/{id}**: Obtiene un proveedor por su ID.
+- **POST /proveedores**: Crea un nuevo proveedor.
+- **PUT /proveedores/{id}**: Actualiza un proveedor existente.
+- **DELETE /proveedores/{id}**: Elimina un proveedor.
 
-### Lotes / Batch
+### Lotes 
 
-- **GET /batch**: Obtiene todos los lotes.
-- **GET /batch/id={id}**: Obtiene un lote por su ID.
-- **POST /batch/create**: Crea un nuevo lote.
-- **PUT /batch/edit/id={id}**: Actualiza un lote existente.
-- **DELETE /batch/delete/id={id}**: Elimina un lote.
+- **GET /lotes**: Obtiene todos los lotes.
+- **GET /lotes/{id}**: Obtiene un lote por su ID.
+- **POST /lotes**: Crea un nuevo lote.
+- **PUT /lotes/{id}**: Actualiza un lote existente.
+- **DELETE /lotes/{id}**: Elimina un lote.
 

@@ -38,28 +38,7 @@ Este proyecto es una API desarrollada en C# utilizando el Framework .NET. Provee
 
 ## Creación de la base de datos con SQL :
 
-CREATE TABLE Lotes (
-    lote_id INT PRIMARY KEY AUTO_INCREMENT,
-    lote_nombre VARCHAR(20) NOT NULL
-);
-
-
-CREATE TABLE Proveedores (
-    proveedor_id INT PRIMARY KEY AUTO_INCREMENT,
-    proveedor_nombre VARCHAR(20) NOT NULL
-);
-
-CREATE TABLE Productos (
-    producto_id INT PRIMARY KEY AUTO_INCREMENT,
-    producto_nombre VARCHAR(100) NOT NULL,
-    descripcion VARCHAR(100),
-    cantidad INT NOT NULL,
-    lote_id INT,
-    proveedor_id INT,
-    FOREIGN KEY (lote_id) REFERENCES Lotes(lote_id),
-    FOREIGN KEY (proveedor_id) REFERENCES Proveedores(proveedor_id)
-);
-
+![SQL-BBDD](sql_bbdd.png)
 
 ## Guía de Uso
 
